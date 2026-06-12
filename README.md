@@ -41,3 +41,4 @@ The project generates a bar chart comparing sales across categories.
 ## Author
 
 Tanishq Sukhraliya
+
