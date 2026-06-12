@@ -36,6 +36,7 @@ Sales_Data_Analysis/
 
 ## Visualization
 
+![Sales Chart](sales_chart.png)
 The project generates a bar chart comparing sales across categories.
 
 ## Author
