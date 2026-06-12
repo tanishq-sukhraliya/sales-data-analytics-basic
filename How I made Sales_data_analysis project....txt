@@ -1,0 +1,30 @@
+step 1... install pandas as 'pip install pandas'
+step 2... create folder Sales_data_analytics…
+          create subfolder data.. and also create analysis.py & README.md file inside sales_data…….
+
+step 3...analysis.py -> import pandas as pd
+
+                        df = pd.read_csv("data/sales.csv")
+
+	                    print(df)
+
+step 4... in terminal run -> python analysis.py
+
+step 5... replace print(df) with.. to add some analysis-> print("Total Sales:", df["Sales"].sum())
+     				            	                      print("Average Sales:", df["Sales"].mean())
+				      		       	                      print("Highest Sale:", df["Sales"].max())
+
+step 6... now, Now let's do something a data analyst actually does:
+
+Question:  Which category generated more revenue?
+
+                    add this ->              category_sales = df.groupby("Category")["Sales"].sum()
+                                  			 print("\nSales by Category:")
+                          			    	 print(category_sales)
+
+So Python is answering:
+
+"How much money did Electronics make?"
+
+"How much money did Clothing make?"
+
